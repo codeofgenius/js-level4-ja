@@ -1,4 +1,3 @@
 // 配列の要素数
-const cities = [ 'Tokyo', 'Kanagawa', 'Chiba', 'Saitama' ];
-
-console.log( cities.length );
+const cities = ['Japan', 'France', 'Spain', 'Italy'];
+console.log(cities.length);
