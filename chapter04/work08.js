@@ -7,6 +7,9 @@ fruits.add('Apple');
 fruits.add('Orange');
 fruits.add('Melon');
 
+// 要素の表示
+console.log(fruits);
+
 // 重複した要素は追加しない
 fruits.add('Orange');
 fruits.add('Melon');

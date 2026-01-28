@@ -10,6 +10,6 @@ map.set('hobby', 'music');
 // valuesメソッドにより値を配列で取得
 const values = map.values();
 
-for ( const value of values ) {
-    console.log( value );
+for (const value of values) {
+    console.log(value);
 }

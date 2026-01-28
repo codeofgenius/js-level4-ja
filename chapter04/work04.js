@@ -10,6 +10,6 @@ map.set('hobby', 'music');
 // keysメソッドによりキーを配列で取得
 const keys = map.keys();
 
-for( const key of keys ) {
-    console.log( key );
+for (const key of keys) {
+    console.log(key);
 }

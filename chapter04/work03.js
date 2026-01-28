@@ -9,5 +9,5 @@ map.set('hobby', 'music');
 
 // forEachメソッドによる繰り返し処理
 map.forEach((value, key) => {
-    console.log( `${key} ==> ${value}` );
+    console.log(`${key} ==> ${value}`);
 });

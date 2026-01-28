@@ -8,6 +8,6 @@ map.set('age', 15);
 map.set('hobby', 'music');
 
 // Mapをfor-of文で処理
-for( const [ key, value ] of map ) {
-    console.log( `${key} ==> ${value}` );
+for (const [key, value] of map) {
+    console.log(`${key} ==> ${value}`);
 }
