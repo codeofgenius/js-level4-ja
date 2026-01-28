@@ -1,9 +1,7 @@
-// オブジェクト基礎
-const person = {
-    name : 'Elsa',
-    age : 15,
-    hobby : '魔法使い',
-    address : "東京",
-};
+// Objectオブジェクトの利用
+const book = new Object({
+    title: 'アリスの冒険',
+    price: 1200,
+});
 
-console.log( person);
+console.log(book);

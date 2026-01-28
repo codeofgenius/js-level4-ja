@@ -1,16 +1,16 @@
-// valuesメソッド
-const title = 'エルサの冒険';
+// entriesメソッド
+const title = 'アリスの冒険';
 const price = 1200;
-const author = 'エルサ';
+const author = 'アリス';
 const genre = '小説';
 
 const book = { title, price, author, genre };
 
-// オブジェクトの値を配列で取得
-const values = Object.values(book);
-console.log( values );
+// オブジェクトのキーと値を2次元配列で取得
+const pairs = Object.entries(book);
+console.log(pairs);
 
-console.log('====');
+console.log('===');
 
-// 値の配列に対して、mapメソッドを呼び出す
-Object.values(book).map(v => console.log(v));
+// mapメソッドでキーと値を表示
+pairs.map(([key, value]) => console.log(`${key} ==> ${value}`));

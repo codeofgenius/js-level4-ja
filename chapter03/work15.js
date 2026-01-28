@@ -1,16 +1,17 @@
-// entriesメソッド
-const title = 'エルサの冒険';
-const price = 1200;
-const author = 'エルサ';
-const genre = '小説';
+// メソッド1
+const person = {
+    name: 'Alice',
+    age: 15,
+    // メソッドの定義
+    showName: function () {
+        console.log(`My name is ${this.name}`);
+    },
+    // メソッドの定義
+    showAge: function () {
+        console.log(`I am ${this.age} years old`);
+    },
+};
 
-const book = { title, price, author, genre };
-
-// オブジェクトのキーと値を2次元配列で取得
-const pairs = Object.entries(book);
-console.log( pairs );
-
-console.log('====');
-
-// キーと値の2次元配列に対して、mapメソッドを呼び出す
-Object.entries(book).map(p => console.log( p[0] + ' ==> ' + p[1]));
+// メソッドの呼び出し
+person.showName();
+person.showAge();

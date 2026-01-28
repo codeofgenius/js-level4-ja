@@ -1,18 +1,17 @@
 // in演算子でプロパティの存在確認
 const math = 90;
 const english = 94;
-const Japanese = 88;
 
-const scores = { math , english, Japanese };
+const scores = { math, english };
 
-if( 'math' in scores ) {
-    console.log( 'scoresにmathが存在します' ); // ここ
+if ('math' in scores) {
+    console.log('scoresにmathが存在します');
 } else {
-    console.log( 'scoresにmathが存在しません' );
+    console.log('scoresにmathが存在しません');
 }
 
-if( 'science' in scores ) {
-    console.log( 'scoresにscienceが存在します' );
+if ('science' in scores) {
+    console.log('scoresにscienceが存在します');
 } else {
-    console.log( 'scoresにscienceが存在しません' ); // ここ
+    console.log('scoresにscienceが存在しません');
 }

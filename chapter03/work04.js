@@ -1,10 +1,15 @@
-// オブジェクト作成の短縮形
-const name = 'Anna';
-const age = 13;
-const hobby = '冒険';
-const address = '千葉';
+// オブジェクトの値取得
+const person = {
+    name: 'Alice',
+    age: 15,
+    hobby: '魔法使い',
+    address: '東京',
+};
 
-// 短縮形でオブジェクト作成
-const person = { name, age, hobby, address};
+// ドット記法
+console.log(person.name);
+console.log(person.age);
 
-console.log( person );
+// 角カッコ記法
+console.log(person['hobby']);
+console.log(person['address']);

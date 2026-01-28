@@ -1,14 +1,9 @@
-// プロパティの追加
-const name = 'Anna';
+// オブジェクト作成の短縮形
+const name = 'Alice';
 const age = 13;
 const hobby = '冒険';
 const address = '千葉';
 
-const person = { name, age, hobby, address};
-console.log( person );
-
-// プロパティの追加
-person.music = 'アニソン';
-person['movie'] = 'アクション';
-
-console.log( person );
+// 短縮形でオブジェクト作成
+const person = { name, age, hobby, address };
+console.log(person);

@@ -1,21 +1,23 @@
-// コンストラクタ関数
-var Player = function(name, job, hp, mp) {
-    this.name = name;
-    this.job = job;
-    this.hp = hp;
-    this.mp = mp;
+/*
+ワーク24_練習問題
+
+以下のようにオブジェクトplayerが定義されています。
+
+Object.valuesメソッドとmap処理を利用して、オブジェクトの
+値を取得して、実行結果のように表示する処理を作成してください。
+
+実行結果
+Tom
+Hero
+20
+30
+*/
+
+const player = {
+    name: 'Tom',
+    job: 'Hero',
+    hp: 20,
+    mp: 30,
 };
 
-// オブジェクト作成
-var p1 = new Player("Minniy","Magician", 20, 30);
-// メソッド作成
-p1.getName = function() {
-    return "I am " + this.name;
-};
-// メソッド作成
-p1.getJob = function() {
-   return "My job is " + this.job;
-};
-// メソッド利用
-console.log(p1.getName());
-console.log(p1.getJob());
+Object.values(player).map((e) => console.log(e));
