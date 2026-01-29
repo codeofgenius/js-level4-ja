@@ -1,9 +1,3 @@
-// 乱数発生の関数にする
-function getRandom(min, max) {
-    // 変数「min」と「max」の間で乱数発生
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-for(var i = 0; i < 10; i++) {
-    console.log(getRandom(3,7));
-}
+// 切り捨て
+console.log(Math.floor(1.3)); // 1
+console.log(Math.floor(2.9)); // 2

@@ -1,4 +1,3 @@
-// 乱数の発生（0以上、1未満）
-for(var i = 0; i < 10; i++) {
-    console.log(Math.random());
-}
+// 四捨五入
+console.log(Math.round(1.3)); // 1
+console.log(Math.round(2.5)); // 3
