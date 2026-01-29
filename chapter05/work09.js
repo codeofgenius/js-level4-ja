@@ -1,0 +1,23 @@
+/*
+ワーク09_練習問題
+
+以下のように、2015年8月12日を表すDateオブジェクトdateが
+あります。
+
+Dateオブジェクトdateを利用して、YYYY年MM月DD日の形式で表示する
+処理を作成してください。
+実行結果のように表示する処理を作成してください。
+
+getFullYearメソッド、getMonthメソッド、getDateメソッドを利用します。
+
+実行結果
+2015年8月12日
+*/
+
+const date = new Date(2015, 7, 12);
+
+let text = '';
+text += date.getFullYear() + '年';
+text += date.getMonth() + 1 + '月';
+text += date.getDate() + '日';
+console.log(text);
