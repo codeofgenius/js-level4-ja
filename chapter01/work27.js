@@ -1,17 +1,14 @@
 /*
 ワーク27_練習問題
 
-以下のように、配列fruitsが定義されています。
+以下のように、配列numbersが定義されています。
 
-forEachメソッドを利用して、配列fruitsの要素を
+mapメソッドを利用して、配列numbersの各要素を
+3倍にした配列を作成してください。結果として、
 実行結果のように表示する処理を作成してください。
 
 実行結果
-apple
-orange
-melon
+[ 6, 18, 24, 36 ]
 */
 
-const fruits = ['apple', 'orange', 'melon'];
-
-fruits.forEach((e) => console.log(e));
+const numbers = [2, 6, 8, 12];

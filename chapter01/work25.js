@@ -1,12 +1,4 @@
-// joinメソッド
-const names = ['Tom', 'Bob', 'Alice', 'Meg'];
+// 破壊的メソッドと非破壊的メソッド
 
-const result1 = names.join(',');
-console.log(result1);
-
-console.log('====');
-
-const colors = ['red', 'blue', 'pink', 'green', 'purple'];
-
-const result2 = colors.join('-');
-console.log(result2);
+// 破壊的メソッドの例
+const data1 = ['a', 'b', 'c', 'd'];

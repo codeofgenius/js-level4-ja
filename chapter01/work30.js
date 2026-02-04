@@ -1,17 +1,14 @@
 /*
 ワーク30_練習問題
 
-以下のように、配列numbersが定義されています。
+以下のように、配列fruitsが定義されています。
 
-reduceメソッドを利用して、配列numbersの要素の
-合計を計算してください。結果として、
+findメソッドを利用して、配列fruitsの要素に
+「orange」が含まれているかを検索してください。
 実行結果のように表示する処理を作成してください。
 
 実行結果
-28
+orange
 */
 
-const numbers = [2, 6, 8, 12];
-
-const result = numbers.reduce((e, prev) => prev + e, 0);
-console.log(result);
+const fruits = ['apple', 'orange', 'melon'];
