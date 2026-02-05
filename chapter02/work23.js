@@ -12,6 +12,3 @@ New York
 */
 
 const text = 'I love New York';
-
-const result = text.substring(7);
-console.log(result);

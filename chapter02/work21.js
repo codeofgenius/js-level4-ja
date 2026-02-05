@@ -11,6 +11,3 @@
 */
 
 const text = 'Apple:Orange:Melon:Banana';
-
-const result = text.split(':');
-console.log(result);

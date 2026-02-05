@@ -13,6 +13,3 @@ I love Boston
 */
 
 const text = 'I love New York';
-
-const result = text.replace('New York', 'Boston');
-console.log(result);

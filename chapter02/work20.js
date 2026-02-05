@@ -13,6 +13,3 @@ mapメソッドとtoUpperCaseメソッドを利用して、
 */
 
 const fruits = ['Apple', 'orAnGe', 'mElOn', 'bAnAnA'];
-
-const result = fruits.map((e) => e.toUpperCase());
-console.log(result);
