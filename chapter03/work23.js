@@ -19,5 +19,3 @@ const player = {
     hp: 20,
     mp: 30,
 };
-
-Object.keys(player).map((e) => console.log(e));

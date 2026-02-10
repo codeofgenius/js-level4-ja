@@ -14,25 +14,3 @@ const Player = function (name, job) {
         return 'My job is ' + this.job;
     };
 };
-
-// 1個目のオブジェクト作成
-const p1 = new Player('Alice', 'Magician');
-
-// オブジェクトの表示
-console.log(p1);
-
-// メソッド呼び出し
-console.log(p1.getName());
-console.log(p1.getJob());
-
-console.log('====');
-
-// 2個目のオブジェクト作成
-const p2 = new Player('Bob', 'Hero');
-
-// オブジェクトの表示
-console.log(p2);
-
-// メソッド呼び出し
-console.log(p2.getName());
-console.log(p2.getJob());

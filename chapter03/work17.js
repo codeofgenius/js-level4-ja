@@ -6,11 +6,3 @@ const person = {
         console.log(`My name is ${this.name}`);
     },
 };
-
-// オブジェクトを通してメソッドの呼び出し
-person.showName(); // My name is Alice
-
-// オブジェクトからメソッドを取り出して、変数に代入する
-const showName = person.showName;
-// 変数を通してメソッドの呼び出し
-showName(); // My name is undefined

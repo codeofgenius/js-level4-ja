@@ -19,7 +19,3 @@ const player = {
     hp: 20,
     mp: 30,
 };
-
-Object.entries(player).map(([key, value]) => {
-    console.log(`${key} ==> ${value}`);
-});
