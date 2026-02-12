@@ -13,6 +13,3 @@ Set(2) { 'Canada', 'Spain' }
 
 const n1 = new Set(['USA', 'Spain', 'Japan', 'Canada']);
 const n2 = new Set(['Italy', 'Canada', 'Spain']);
-
-const result = n1.intersection(n2);
-console.log(result);

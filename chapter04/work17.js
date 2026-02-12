@@ -13,6 +13,3 @@ Set(5) { 'USA', 'Spain', 'Japan', 'Canada', 'Italy' }
 
 const n1 = new Set(['USA', 'Spain', 'Japan', 'Canada']);
 const n2 = new Set(['Italy', 'Canada', 'Spain']);
-
-const result = n1.union(n2);
-console.log(result);

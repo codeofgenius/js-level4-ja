@@ -8,6 +8,3 @@ fruits.add('Orange');
 fruits.add('Melon');
 
 // Setをfor-of文で繰り返し処理
-for (const value of fruits) {
-    console.log(value);
-}

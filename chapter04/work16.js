@@ -18,7 +18,3 @@ playerMap.set('name', 'Alice');
 playerMap.set('job', 'Magician');
 playerMap.set('hp', 20);
 playerMap.set('mp', 42);
-
-for (const [key, value] of playerMap) {
-    console.log(`${key} is ${value}`);
-}

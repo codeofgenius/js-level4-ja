@@ -16,7 +16,3 @@ const personMap = new Map();
 personMap.set('name', 'Bob');
 personMap.set('age', 17);
 personMap.set('hobby', 'piano');
-
-personMap.forEach((value, key) => {
-    console.log(`${key} ==> ${value}`);
-});

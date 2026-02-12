@@ -6,8 +6,3 @@ const map = new Map();
 map.set('name', 'Bob');
 map.set('age', 15);
 map.set('hobby', 'music');
-
-// forEachメソッドによる繰り返し処理
-map.forEach((value, key) => {
-    console.log(`${key} ==> ${value}`);
-});

@@ -8,6 +8,3 @@ fruits.add('Orange');
 fruits.add('Melon');
 
 // forEachメソッドによる繰り返し処理
-fruits.forEach((value) => {
-    console.log(value);
-});

@@ -7,9 +7,4 @@ map.set('name', 'Bob');
 map.set('age', 15);
 map.set('hobby', 'music');
 
-// valuesメソッドにより値を配列で取得
-const values = map.values();
-
-for (const value of values) {
-    console.log(value);
-}
+// valuesメソッドにより値を保持するIteratorオブジェクトで取得
