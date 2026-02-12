@@ -15,9 +15,3 @@ getFullYearメソッド、getMonthメソッド、getDateメソッドを利用し
 */
 
 const date = new Date(2015, 7, 12);
-
-let text = '';
-text += date.getFullYear() + '年';
-text += date.getMonth() + 1 + '月';
-text += date.getDate() + '日';
-console.log(text);

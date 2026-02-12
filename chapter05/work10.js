@@ -15,4 +15,3 @@ DateオブジェクトdateとtoLocaleDateStringメソッドを利用して、
 */
 
 const date = new Date(2018, 11, 25);
-console.log(date.toLocaleDateString('ja-JP'));

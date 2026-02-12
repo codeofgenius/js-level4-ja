@@ -8,6 +8,3 @@ Dateオブジェクトを作成してください。
 実行結果
 2020-04-15T00:00:00.000Z
 */
-
-const date = new Date(2020, 3, 15);
-console.log(date);
