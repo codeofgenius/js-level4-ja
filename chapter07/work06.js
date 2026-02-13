@@ -13,6 +13,3 @@ Set(5) { 'red', 'blue', 'yellow', 'purple', 'green' }
 
 const c1 = new Set(['red', 'blue', 'yellow', 'purple']);
 const c2 = new Set(['yellow', 'green', 'blue']);
-
-const result = c1.union(c2);
-console.log(result);

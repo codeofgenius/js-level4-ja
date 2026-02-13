@@ -12,6 +12,3 @@ mapメソッドとMath.floorを利用して、配列numsのそれぞれの
 */
 
 const nums = [1.32, 2.67, 1.51, 3.35, 5.19];
-
-const result = nums.map((e) => Math.floor(e));
-console.log(result);

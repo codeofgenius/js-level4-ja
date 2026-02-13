@@ -14,6 +14,3 @@ reverseメソッド、mapメソッド、toUpperCaseメソッドを
 */
 
 const names = ['Tom', 'Bob', 'Alice', 'Meg'];
-
-const result = names.reverse().map((e) => e.toUpperCase());
-console.log(result);

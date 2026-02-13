@@ -12,6 +12,3 @@ mapメソッドとMath.powを利用して、配列numbersの各要素を
 */
 
 const numbers = [2, 3, 5, 6];
-
-const result = numbers.map((e) => Math.pow(e, 3));
-console.log(result);

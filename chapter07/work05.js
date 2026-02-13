@@ -21,7 +21,3 @@ const scores = {
     madrid: 35.52,
     rome: 30.91,
 };
-
-Object.entries(scores).map(([key, value]) => {
-    console.log(`${key.toUpperCase()} ==> ${Math.round(value)}`);
-});

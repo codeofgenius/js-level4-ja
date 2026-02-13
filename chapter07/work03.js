@@ -14,6 +14,3 @@ splitメソッド、mapメソッド、toLowerCaseメソッドを
 */
 
 const text = 'SOCCER/TENNIS/GOLF/RUNNING';
-
-const result = text.split('/').map((e) => e.toLowerCase());
-console.log(result);

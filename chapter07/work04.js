@@ -15,6 +15,3 @@ I love pizza
 */
 
 const text = 'You love sushi';
-
-const result = text.replace('You', 'I').replace('sushi', 'pizza');
-console.log(result);

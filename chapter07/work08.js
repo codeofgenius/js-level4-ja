@@ -17,4 +17,3 @@ DateオブジェクトdateとtoLocaleStringメソッドを利用して、
 */
 
 const date = new Date(2020, 4, 10, 9, 20, 00);
-console.log(date.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' }));
