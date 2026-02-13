@@ -14,4 +14,3 @@
 
 // 半径5を表す変数
 const r = 5;
-console.log(2 * Math.PI * r);
